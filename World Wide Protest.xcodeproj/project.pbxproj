@@ -16,6 +16,10 @@
 		86505DE81E99144D0016512E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86505DE61E99144D0016512E /* LaunchScreen.storyboard */; };
 		86505DF31E99144D0016512E /* World_Wide_ProtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86505DF21E99144D0016512E /* World_Wide_ProtestTests.m */; };
 		86505DFE1E99144D0016512E /* World_Wide_ProtestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86505DFD1E99144D0016512E /* World_Wide_ProtestUITests.m */; };
+		868C7CC31E991D4600579ACE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868C7CC21E991D4600579ACE /* GoogleService-Info.plist */; };
+		AD2ADEB72B8368D68AEA40A9 /* libPods-World Wide ProtestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE7D7B33015F7AA5258C739 /* libPods-World Wide ProtestUITests.a */; };
+		C273DF7625B07175F890A629 /* libPods-World Wide Protest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7AD92ADAD4912ACAEDD4DE /* libPods-World Wide Protest.a */; };
+		F2E24A87B75EF9F49803F3CE /* libPods-World Wide ProtestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAD239282137855BF2D1F6 /* libPods-World Wide ProtestTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		096CDC1D7E709F165CEB750C /* Pods-World Wide ProtestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide ProtestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide ProtestTests/Pods-World Wide ProtestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CC2A4B6D6FCD6A8C946E1FC /* Pods-World Wide ProtestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide ProtestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide ProtestTests/Pods-World Wide ProtestTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F1B5C7540B0B22556495C07 /* Pods-World Wide Protest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide Protest.release.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide Protest/Pods-World Wide Protest.release.xcconfig"; sourceTree = "<group>"; };
+		6303838C6F5166EC6829D0D2 /* Pods-World Wide Protest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide Protest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide Protest/Pods-World Wide Protest.debug.xcconfig"; sourceTree = "<group>"; };
+		82DAD239282137855BF2D1F6 /* libPods-World Wide ProtestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-World Wide ProtestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86505DD21E99144D0016512E /* World Wide Protest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Wide Protest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86505DD61E99144D0016512E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86505DD81E99144D0016512E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +63,12 @@
 		86505DF91E99144D0016512E /* World Wide ProtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World Wide ProtestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86505DFD1E99144D0016512E /* World_Wide_ProtestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_Wide_ProtestUITests.m; sourceTree = "<group>"; };
 		86505DFF1E99144D0016512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86505E0B1E9914D60016512E /* World Wide Protest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "World Wide Protest.entitlements"; sourceTree = "<group>"; };
+		868C7CC21E991D4600579ACE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF8A40FACA915B4D79BE9590 /* Pods-World Wide ProtestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide ProtestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide ProtestUITests/Pods-World Wide ProtestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA9165EC2BE1FDED76CFC6F1 /* Pods-World Wide ProtestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide ProtestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide ProtestUITests/Pods-World Wide ProtestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCE7D7B33015F7AA5258C739 /* libPods-World Wide ProtestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-World Wide ProtestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7AD92ADAD4912ACAEDD4DE /* libPods-World Wide Protest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-World Wide Protest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C273DF7625B07175F890A629 /* libPods-World Wide Protest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E24A87B75EF9F49803F3CE /* libPods-World Wide ProtestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2ADEB72B8368D68AEA40A9 /* libPods-World Wide ProtestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		637B97E7AE3C9BBFC3AB824F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AD92ADAD4912ACAEDD4DE /* libPods-World Wide Protest.a */,
+				82DAD239282137855BF2D1F6 /* libPods-World Wide ProtestTests.a */,
+				BCE7D7B33015F7AA5258C739 /* libPods-World Wide ProtestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8139FF2C7D880B3725A2ADF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6303838C6F5166EC6829D0D2 /* Pods-World Wide Protest.debug.xcconfig */,
+				4F1B5C7540B0B22556495C07 /* Pods-World Wide Protest.release.xcconfig */,
+				096CDC1D7E709F165CEB750C /* Pods-World Wide ProtestTests.debug.xcconfig */,
+				4CC2A4B6D6FCD6A8C946E1FC /* Pods-World Wide ProtestTests.release.xcconfig */,
+				AF8A40FACA915B4D79BE9590 /* Pods-World Wide ProtestUITests.debug.xcconfig */,
+				BA9165EC2BE1FDED76CFC6F1 /* Pods-World Wide ProtestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		86505DC91E99144D0016512E = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +129,8 @@
 				86505DF11E99144D0016512E /* World Wide ProtestTests */,
 				86505DFC1E99144D0016512E /* World Wide ProtestUITests */,
 				86505DD31E99144D0016512E /* Products */,
+				8139FF2C7D880B3725A2ADF5 /* Pods */,
+				637B97E7AE3C9BBFC3AB824F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +147,7 @@
 		86505DD41E99144D0016512E /* World Wide Protest */ = {
 			isa = PBXGroup;
 			children = (
+				86505E0B1E9914D60016512E /* World Wide Protest.entitlements */,
 				86505DD81E99144D0016512E /* AppDelegate.h */,
 				86505DD91E99144D0016512E /* AppDelegate.m */,
 				86505DDB1E99144D0016512E /* FirstViewController.h */,
@@ -114,6 +158,7 @@
 				86505DE41E99144D0016512E /* Assets.xcassets */,
 				86505DE61E99144D0016512E /* LaunchScreen.storyboard */,
 				86505DE91E99144D0016512E /* Info.plist */,
+				868C7CC21E991D4600579ACE /* GoogleService-Info.plist */,
 				86505DD51E99144D0016512E /* Supporting Files */,
 			);
 			path = "World Wide Protest";
@@ -152,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86505E021E99144D0016512E /* Build configuration list for PBXNativeTarget "World Wide Protest" */;
 			buildPhases = (
+				20EBAA1845FAC064657F0897 /* [CP] Check Pods Manifest.lock */,
 				86505DCE1E99144D0016512E /* Sources */,
 				86505DCF1E99144D0016512E /* Frameworks */,
 				86505DD01E99144D0016512E /* Resources */,
+				6066F6BADC287DD4E158E8F3 /* [CP] Embed Pods Frameworks */,
+				022ADE9F12F788416493E558 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86505E051E99144D0016512E /* Build configuration list for PBXNativeTarget "World Wide ProtestTests" */;
 			buildPhases = (
+				B1BE5755D6CA757A4BFEB0D0 /* [CP] Check Pods Manifest.lock */,
 				86505DEA1E99144D0016512E /* Sources */,
 				86505DEB1E99144D0016512E /* Frameworks */,
 				86505DEC1E99144D0016512E /* Resources */,
+				E087AD1B19659F5C42351DB0 /* [CP] Embed Pods Frameworks */,
+				9FAA6F2026D55EE4E5C661BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86505E081E99144D0016512E /* Build configuration list for PBXNativeTarget "World Wide ProtestUITests" */;
 			buildPhases = (
+				4FB012477A2A7173F5DB8EB5 /* [CP] Check Pods Manifest.lock */,
 				86505DF51E99144D0016512E /* Sources */,
 				86505DF61E99144D0016512E /* Frameworks */,
 				86505DF71E99144D0016512E /* Resources */,
+				8A8A0BC56644AFD05379C016 /* [CP] Embed Pods Frameworks */,
+				7D56A7BE1E405EE7C1FB9218 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +268,11 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 52U6XAJSSF;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					86505DED1E99144D0016512E = {
 						CreatedOnToolsVersion = 8.3;
@@ -257,6 +316,7 @@
 				86505DE81E99144D0016512E /* LaunchScreen.storyboard in Resources */,
 				86505DE51E99144D0016512E /* Assets.xcassets in Resources */,
 				86505DE31E99144D0016512E /* Main.storyboard in Resources */,
+				868C7CC31E991D4600579ACE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +335,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022ADE9F12F788416493E558 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-World Wide Protest/Pods-World Wide Protest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20EBAA1845FAC064657F0897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB012477A2A7173F5DB8EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6066F6BADC287DD4E158E8F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-World Wide Protest/Pods-World Wide Protest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D56A7BE1E405EE7C1FB9218 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-World Wide ProtestUITests/Pods-World Wide ProtestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8A0BC56644AFD05379C016 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-World Wide ProtestUITests/Pods-World Wide ProtestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAA6F2026D55EE4E5C661BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-World Wide ProtestTests/Pods-World Wide ProtestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BE5755D6CA757A4BFEB0D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E087AD1B19659F5C42351DB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-World Wide ProtestTests/Pods-World Wide ProtestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86505DCE1E99144D0016512E /* Sources */ = {
@@ -433,30 +631,35 @@
 		};
 		86505E031E99144D0016512E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6303838C6F5166EC6829D0D2 /* Pods-World Wide Protest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "World Wide Protest/World Wide Protest.entitlements";
 				DEVELOPMENT_TEAM = 52U6XAJSSF;
 				INFOPLIST_FILE = "World Wide Protest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.frogg.World-Wide-Protest";
+				PRODUCT_BUNDLE_IDENTIFIER = io.frogg.worldwideprotest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		86505E041E99144D0016512E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1B5C7540B0B22556495C07 /* Pods-World Wide Protest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "World Wide Protest/World Wide Protest.entitlements";
 				DEVELOPMENT_TEAM = 52U6XAJSSF;
 				INFOPLIST_FILE = "World Wide Protest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.frogg.World-Wide-Protest";
+				PRODUCT_BUNDLE_IDENTIFIER = io.frogg.worldwideprotest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		86505E061E99144D0016512E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096CDC1D7E709F165CEB750C /* Pods-World Wide ProtestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 52U6XAJSSF;
@@ -470,6 +673,7 @@
 		};
 		86505E071E99144D0016512E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC2A4B6D6FCD6A8C946E1FC /* Pods-World Wide ProtestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 52U6XAJSSF;
@@ -483,6 +687,7 @@
 		};
 		86505E091E99144D0016512E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8A40FACA915B4D79BE9590 /* Pods-World Wide ProtestUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 52U6XAJSSF;
 				INFOPLIST_FILE = "World Wide ProtestUITests/Info.plist";
@@ -495,6 +700,7 @@
 		};
 		86505E0A1E99144D0016512E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9165EC2BE1FDED76CFC6F1 /* Pods-World Wide ProtestUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 52U6XAJSSF;
 				INFOPLIST_FILE = "World Wide ProtestUITests/Info.plist";
@@ -524,6 +730,7 @@
 				86505E041E99144D0016512E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86505E051E99144D0016512E /* Build configuration list for PBXNativeTarget "World Wide ProtestTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +739,7 @@
 				86505E071E99144D0016512E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86505E081E99144D0016512E /* Build configuration list for PBXNativeTarget "World Wide ProtestUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +748,7 @@
 				86505E0A1E99144D0016512E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

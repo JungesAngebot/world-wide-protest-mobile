@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>538519169459-jc9pk9jdalk066i5bavoetg7e4fj3uaj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.538519169459-jc9pk9jdalk066i5bavoetg7e4fj3uaj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABOAfG4MaeGPz5Bso0jrH8h74cw1izAuY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>538519169459</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.frogg.worldwideprotest</string>
+	<key>PROJECT_ID</key>
+	<string>world-wide-protest</string>
+	<key>STORAGE_BUCKET</key>
+	<string>world-wide-protest.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:538519169459:ios:fa0baccb7fcdf2b6</string>
+	<key>DATABASE_URL</key>
+	<string>https://world-wide-protest.firebaseio.com</string>
+</dict>
+</plist>
