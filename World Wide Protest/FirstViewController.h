@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@import WebKit;
 
 @interface FirstViewController : UIViewController
+
+@property(nonatomic,strong) WKWebView* webView;
+
+
 
 
 @end

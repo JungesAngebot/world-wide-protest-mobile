@@ -8,6 +8,7 @@ target 'World Wide Protest' do
   # Pods for World Wide Protest
     pod 'Firebase/Core'
 	pod 'Firebase/Messaging'
+	pod 'Firebase/Database'
 
   target 'World Wide ProtestTests' do
     inherit! :search_paths

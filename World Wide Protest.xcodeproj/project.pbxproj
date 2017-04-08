@@ -16,7 +16,9 @@
 		86505DE81E99144D0016512E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86505DE61E99144D0016512E /* LaunchScreen.storyboard */; };
 		86505DF31E99144D0016512E /* World_Wide_ProtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86505DF21E99144D0016512E /* World_Wide_ProtestTests.m */; };
 		86505DFE1E99144D0016512E /* World_Wide_ProtestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86505DFD1E99144D0016512E /* World_Wide_ProtestUITests.m */; };
+		8662B91A1E99A6530072A634 /* DemoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8662B9191E99A6530072A634 /* DemoAnnotation.m */; };
 		868C7CC31E991D4600579ACE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868C7CC21E991D4600579ACE /* GoogleService-Info.plist */; };
+		868C7CC51E9942A900579ACE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868C7CC41E9942A900579ACE /* MapKit.framework */; };
 		AD2ADEB72B8368D68AEA40A9 /* libPods-World Wide ProtestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE7D7B33015F7AA5258C739 /* libPods-World Wide ProtestUITests.a */; };
 		C273DF7625B07175F890A629 /* libPods-World Wide Protest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7AD92ADAD4912ACAEDD4DE /* libPods-World Wide Protest.a */; };
 		F2E24A87B75EF9F49803F3CE /* libPods-World Wide ProtestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAD239282137855BF2D1F6 /* libPods-World Wide ProtestTests.a */; };
@@ -64,7 +66,10 @@
 		86505DFD1E99144D0016512E /* World_Wide_ProtestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_Wide_ProtestUITests.m; sourceTree = "<group>"; };
 		86505DFF1E99144D0016512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86505E0B1E9914D60016512E /* World Wide Protest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "World Wide Protest.entitlements"; sourceTree = "<group>"; };
+		8662B9181E99A6530072A634 /* DemoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAnnotation.h; sourceTree = "<group>"; };
+		8662B9191E99A6530072A634 /* DemoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAnnotation.m; sourceTree = "<group>"; };
 		868C7CC21E991D4600579ACE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		868C7CC41E9942A900579ACE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AF8A40FACA915B4D79BE9590 /* Pods-World Wide ProtestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide ProtestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide ProtestUITests/Pods-World Wide ProtestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA9165EC2BE1FDED76CFC6F1 /* Pods-World Wide ProtestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide ProtestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide ProtestUITests/Pods-World Wide ProtestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BCE7D7B33015F7AA5258C739 /* libPods-World Wide ProtestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-World Wide ProtestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868C7CC51E9942A900579ACE /* MapKit.framework in Frameworks */,
 				C273DF7625B07175F890A629 /* libPods-World Wide Protest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +108,7 @@
 		637B97E7AE3C9BBFC3AB824F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				868C7CC41E9942A900579ACE /* MapKit.framework */,
 				FF7AD92ADAD4912ACAEDD4DE /* libPods-World Wide Protest.a */,
 				82DAD239282137855BF2D1F6 /* libPods-World Wide ProtestTests.a */,
 				BCE7D7B33015F7AA5258C739 /* libPods-World Wide ProtestUITests.a */,
@@ -154,6 +161,8 @@
 				86505DDC1E99144D0016512E /* FirstViewController.m */,
 				86505DDE1E99144D0016512E /* SecondViewController.h */,
 				86505DDF1E99144D0016512E /* SecondViewController.m */,
+				8662B9181E99A6530072A634 /* DemoAnnotation.h */,
+				8662B9191E99A6530072A634 /* DemoAnnotation.m */,
 				86505DE11E99144D0016512E /* Main.storyboard */,
 				86505DE41E99144D0016512E /* Assets.xcassets */,
 				86505DE61E99144D0016512E /* LaunchScreen.storyboard */,
@@ -483,6 +492,7 @@
 				86505DDA1E99144D0016512E /* AppDelegate.m in Sources */,
 				86505DDD1E99144D0016512E /* FirstViewController.m in Sources */,
 				86505DD71E99144D0016512E /* main.m in Sources */,
+				8662B91A1E99A6530072A634 /* DemoAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
