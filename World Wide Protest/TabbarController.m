@@ -1,42 +1,34 @@
 //
-//  CreateNewEventViewController.m
+//  TabbarController.m
 //  World Wide Protest
 //
 //  Created by Frederik Riedel on 09.04.17.
 //  Copyright © 2017 Frederik Riedel. All rights reserved.
 //
 
-#import "CreateNewEventViewController.h"
+#import "TabbarController.h"
 
-@interface CreateNewEventViewController ()
+@interface TabbarController ()
 
 @end
 
-@implementation CreateNewEventViewController
+@implementation TabbarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginChange) name:@"loginChangeNotification" object:nil];
     
-    
-    //hardcoded hackathon solution
-    self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-66)];
-    [self.view addSubview:self.webView];
-    
-    NSURL* url = [NSURL URLWithString:@"https://worldwideprotest.com/make-a-change"];
-    NSURLRequest* request = [NSURLRequest requestWithURL:url];
-    [self.webView loadRequest:request];
     // Do any additional setup after loading the view.
+}
+
+-(void) loginChange {
+    [self.loginButton setTitle:@""];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)done:(id)sender {
-    [self.navigationController dismissViewControllerAnimated:YES completion:^{
-        
-    }];
 }
 
 /*

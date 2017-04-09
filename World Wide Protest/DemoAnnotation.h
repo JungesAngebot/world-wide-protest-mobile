@@ -15,6 +15,7 @@
 @property (nonatomic) CLLocationCoordinate2D coordinate;
 @property (nonatomic) NSString* title;
 @property (nonatomic,strong) NSString* descriptionText;
+@property(nonatomic) int eventId;
 
 -(instancetype) initWithJson:(NSDictionary*) json;
 

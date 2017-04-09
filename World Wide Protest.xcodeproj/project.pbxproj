@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864CB8D21E9A12C100586212 /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864CB8D11E9A12C100586212 /* TabbarController.m */; };
+		864CB8D61E9A225200586212 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864CB8D41E9A225200586212 /* EventDetailViewController.m */; };
+		864CB8D71E9A225200586212 /* EventDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864CB8D51E9A225200586212 /* EventDetailViewController.xib */; };
 		86505DD71E99144D0016512E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86505DD61E99144D0016512E /* main.m */; };
 		86505DDA1E99144D0016512E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86505DD91E99144D0016512E /* AppDelegate.m */; };
 		86505DDD1E99144D0016512E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86505DDC1E99144D0016512E /* FirstViewController.m */; };
@@ -50,6 +53,11 @@
 		4F1B5C7540B0B22556495C07 /* Pods-World Wide Protest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide Protest.release.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide Protest/Pods-World Wide Protest.release.xcconfig"; sourceTree = "<group>"; };
 		6303838C6F5166EC6829D0D2 /* Pods-World Wide Protest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide Protest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide Protest/Pods-World Wide Protest.debug.xcconfig"; sourceTree = "<group>"; };
 		82DAD239282137855BF2D1F6 /* libPods-World Wide ProtestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-World Wide ProtestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864CB8D01E9A12C100586212 /* TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
+		864CB8D11E9A12C100586212 /* TabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarController.m; sourceTree = "<group>"; };
+		864CB8D31E9A225200586212 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		864CB8D41E9A225200586212 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		864CB8D51E9A225200586212 /* EventDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetailViewController.xib; sourceTree = "<group>"; };
 		86505DD21E99144D0016512E /* World Wide Protest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Wide Protest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86505DD61E99144D0016512E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86505DD81E99144D0016512E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -180,12 +188,17 @@
 				86505DDC1E99144D0016512E /* FirstViewController.m */,
 				86505DDE1E99144D0016512E /* SecondViewController.h */,
 				86505DDF1E99144D0016512E /* SecondViewController.m */,
+				864CB8D31E9A225200586212 /* EventDetailViewController.h */,
+				864CB8D41E9A225200586212 /* EventDetailViewController.m */,
+				864CB8D51E9A225200586212 /* EventDetailViewController.xib */,
 				8662B9181E99A6530072A634 /* DemoAnnotation.h */,
 				8662B9191E99A6530072A634 /* DemoAnnotation.m */,
 				8662B91E1E99D1150072A634 /* CreateNewEventViewController.h */,
 				8662B91F1E99D1150072A634 /* CreateNewEventViewController.m */,
 				8662B9211E99D1250072A634 /* LoginViewController.h */,
 				8662B9221E99D1250072A634 /* LoginViewController.m */,
+				864CB8D01E9A12C100586212 /* TabbarController.h */,
+				864CB8D11E9A12C100586212 /* TabbarController.m */,
 				86505DE11E99144D0016512E /* Main.storyboard */,
 				86505DE41E99144D0016512E /* Assets.xcassets */,
 				86505DE61E99144D0016512E /* LaunchScreen.storyboard */,
@@ -348,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864CB8D71E9A225200586212 /* EventDetailViewController.xib in Resources */,
 				86505DE81E99144D0016512E /* LaunchScreen.storyboard in Resources */,
 				86505DE51E99144D0016512E /* Assets.xcassets in Resources */,
 				86505DE31E99144D0016512E /* Main.storyboard in Resources */,
@@ -517,8 +531,10 @@
 				8662B9231E99D1250072A634 /* LoginViewController.m in Sources */,
 				8662B91D1E99B0780072A634 /* UIColor+ProtestColor.m in Sources */,
 				86505DE01E99144D0016512E /* SecondViewController.m in Sources */,
+				864CB8D21E9A12C100586212 /* TabbarController.m in Sources */,
 				86505DDA1E99144D0016512E /* AppDelegate.m in Sources */,
 				8662B9201E99D1150072A634 /* CreateNewEventViewController.m in Sources */,
+				864CB8D61E9A225200586212 /* EventDetailViewController.m in Sources */,
 				86505DDD1E99144D0016512E /* FirstViewController.m in Sources */,
 				86505DD71E99144D0016512E /* main.m in Sources */,
 				8662B91A1E99A6530072A634 /* DemoAnnotation.m in Sources */,

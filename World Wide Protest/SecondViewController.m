@@ -9,6 +9,8 @@
 #import "SecondViewController.h"
 #import "DemoAnnotation.h"
 
+#import "EventDetailViewController.h"
+
 @interface SecondViewController ()
 
 @end
@@ -22,6 +24,7 @@
     [self reloadMapData];
     
     self.mapView.showsUserLocation = YES;
+    self.mapView.delegate = self;
     
     self.locationManager = [[CLLocationManager alloc] init];
     
@@ -47,12 +50,45 @@
         
         for(NSDictionary* dict in jsonEvents) {
             DemoAnnotation* demoAnnotation = [[DemoAnnotation alloc] initWithJson:dict];
+            
+            
+            
             [self.mapView addAnnotation:demoAnnotation];
         }
         
         
         
     }];
+}
+
+- (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(DemoAnnotation*) annotation
+{
+    
+    if([annotation isKindOfClass:[MKUserLocation class]]) {
+        return nil;
+    }
+    
+    MKPinAnnotationView *newAnnotation = [[MKPinAnnotationView alloc]     initWithAnnotation:annotation reuseIdentifier:@"pinLocation"];
+    
+    newAnnotation.tag = annotation.eventId;
+    
+    newAnnotation.canShowCallout = YES;
+    newAnnotation.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    
+    return newAnnotation;
+}
+
+- (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
+{
+    
+    
+    
+    EventDetailViewController* detailView = [EventDetailViewController new];
+    detailView.eventId = [NSString stringWithFormat:@"%ld",(long)view.tag];
+    [self.navigationController pushViewController:detailView animated:YES];
+    
+    //launch a new view upon touching the disclosure indicator
+    
 }
 
 - (void)didReceiveMemoryWarning {

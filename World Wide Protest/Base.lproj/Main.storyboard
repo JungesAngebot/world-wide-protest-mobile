@@ -13,7 +13,7 @@
         <scene sceneID="NPz-bV-gWM">
             <objects>
                 <navigationController id="hnK-jp-lKs" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XK1-Jd-cuw">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="XK1-Jd-cuw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -36,36 +36,7 @@
                     <view key="view" contentMode="scaleToFill" id="ksD-cz-XbV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="isW-vg-dQI">
-                                <rect key="frame" x="137" y="247" width="101.5" height="173.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Login:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Bn-9g-6oL">
-                                        <rect key="frame" x="0.0" y="0.0" width="101.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EG2-Vk-jxv">
-                                        <rect key="frame" x="17.5" y="41.5" width="67" height="30"/>
-                                        <state key="normal" title="Facebook"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chd-dd-K2Z">
-                                        <rect key="frame" x="26" y="92.5" width="50" height="30"/>
-                                        <state key="normal" title="Google"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dy1-Y0-PF1">
-                                        <rect key="frame" x="32.5" y="143.5" width="37" height="30"/>
-                                        <state key="normal" title="Email"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="isW-vg-dQI" firstAttribute="centerX" secondItem="ksD-cz-XbV" secondAttribute="centerX" id="Dnc-YS-Zbb"/>
-                            <constraint firstItem="isW-vg-dQI" firstAttribute="centerY" secondItem="ksD-cz-XbV" secondAttribute="centerY" id="E5F-eF-gXA"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="4kA-bb-njn">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="ta4-kk-TdP">
@@ -83,7 +54,7 @@
         <scene sceneID="wig-Z9-1KP">
             <objects>
                 <navigationController id="27O-Ji-74e" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zTt-Fc-vN0">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="zTt-Fc-vN0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -120,7 +91,7 @@
             </objects>
             <point key="canvasLocation" x="1175" y="-1072"/>
         </scene>
-        <!--World Wide Protest-->
+        <!--List-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
@@ -133,8 +104,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="tintColor" red="0.8983675069" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="List" id="acW-dT-cKf"/>
-                    <navigationItem key="navigationItem" title="World Wide Protest" id="arx-VJ-pOm"/>
+                    <tabBarItem key="tabBarItem" title="List" image="event_list" selectedImage="event_list" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="arx-VJ-pOm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -164,7 +135,7 @@
                             <constraint firstItem="YGT-lR-cpj" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="tE7-PO-9cf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map_icon" selectedImage="map_icon" id="cPa-gy-q4n"/>
                     <navigationItem key="navigationItem" id="9Yv-s5-C7E"/>
                     <connections>
                         <outlet property="mapView" destination="YGT-lR-cpj" id="rxG-5n-8d2"/>
@@ -178,7 +149,7 @@
         <scene sceneID="PU8-Ax-t8D">
             <objects>
                 <navigationController id="3rE-94-P7K" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RDx-Hk-Mni">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="RDx-Hk-Mni">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -190,11 +161,11 @@
             </objects>
             <point key="canvasLocation" x="-975" y="0.0"/>
         </scene>
-        <!--World Wide Protest-->
+        <!--WorldwideProtest-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="World Wide Protest" id="pfa-vx-QwU">
+                <tabBarController id="49e-Tb-3d3" customClass="TabbarController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="WorldwideProtest" id="pfa-vx-QwU">
                         <barButtonItem key="leftBarButtonItem" title="Login" style="done" id="YVv-CO-hjq">
                             <connections>
                                 <segue destination="hnK-jp-lKs" kind="presentation" id="vns-6l-vQI"/>
@@ -213,6 +184,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
+                        <outlet property="loginButton" destination="YVv-CO-hjq" id="13N-xp-B13"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="T6t-6T-FuQ"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="0ZK-to-xQm"/>
                     </connections>
@@ -223,6 +195,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="second" width="30" height="30"/>
+        <image name="event_list" width="28" height="31"/>
+        <image name="map_icon" width="28" height="30"/>
     </resources>
 </document>

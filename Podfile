@@ -13,6 +13,7 @@ target 'World Wide Protest' do
 	pod 'FBSDKCoreKit'
 	pod 'FBSDKLoginKit'
 	pod 'FBSDKShareKit'
+	pod 'GoogleSignIn'
 
   target 'World Wide ProtestTests' do
     inherit! :search_paths

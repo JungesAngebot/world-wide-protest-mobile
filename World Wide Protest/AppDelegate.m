@@ -77,6 +77,8 @@
                                                        [UIColor whiteColor], NSForegroundColorAttributeName,
                                                        nil] forState:UIControlStateSelected];
     
+    [[UIView appearanceWhenContainedIn:[UITabBar class], nil] setTintColor:[UIColor blackColor]];
+    
     
     [[UITabBar appearance] setBarTintColor:[UIColor protestColor]];
     [[UITabBar appearance] setBackgroundColor:[UIColor blackColor]];

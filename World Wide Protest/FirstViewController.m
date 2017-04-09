@@ -17,7 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    
+    
+    //hardcoded hackathon solution
+    self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-44-66)];
     [self.view addSubview:self.webView];
     
     NSURL* url = [NSURL URLWithString:@"https://worldwideprotest.com"];

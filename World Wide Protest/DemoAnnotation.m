@@ -20,6 +20,8 @@
         self.title = [json objectForKey:@"title"];
         self.coordinate = CLLocationCoordinate2DMake([[json objectForKey:@"lat"] doubleValue], [[json objectForKey:@"lng"] doubleValue]);
         
+        self.eventId = [[json objectForKey:@"detailId"] intValue];
+        
         
     }
     

@@ -1,5 +1,5 @@
 //
-//  CreateNewEventViewController.h
+//  EventDetailViewController.h
 //  World Wide Protest
 //
 //  Created by Frederik Riedel on 09.04.17.
@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 @import WebKit;
 
-
-@interface CreateNewEventViewController : UIViewController
+@interface EventDetailViewController : UIViewController
 
 @property(nonatomic,strong) WKWebView* webView;
+@property(nonatomic,strong) NSString* eventId;
+
 
 @end

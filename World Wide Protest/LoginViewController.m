@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 @import Firebase;
+@import GoogleSignIn;
 
 
 
@@ -25,6 +26,12 @@
     loginButton.center = self.view.center;
     loginButton.delegate = self;
     [self.view addSubview:loginButton];
+    
+    
+    /*[GIDSignIn sharedInstance].clientID = [FIRApp defaultApp].options.clientID;
+    [GIDSignIn sharedInstance].delegate = self;
+    [GIDSignIn sharedInstance].uiDelegate = self;
+    [[GIDSignIn sharedInstance] signIn];*/
     // Do any additional setup after loading the view.
 }
 
@@ -49,9 +56,14 @@ didCompleteWithResult:(FBSDKLoginManagerLoginResult *)result
         [[FIRAuth auth] signInWithCredential:credential
                                   completion:^(FIRUser *user, NSError *error) {
                                       // ...
+                                      
+                                      [self.navigationController dismissViewControllerAnimated:YES completion:^{
+                                          
+                                      }];
+                                      
                                       if (error) {
                                           NSLog(@"Facebook login error: %@",error.localizedDescription);
-                                          return;
+                                            return;
                                       }}];
         
         
@@ -64,6 +76,30 @@ didCompleteWithResult:(FBSDKLoginManagerLoginResult *)result
     
 }
 
+- (void)signIn:(GIDSignIn *)signIn
+didSignInForUser:(GIDGoogleUser *)user
+     withError:(NSError *)error {
+    // ...
+    if (error == nil) {
+        GIDAuthentication *authentication = user.authentication;
+        FIRAuthCredential *credential =
+        [FIRGoogleAuthProvider credentialWithIDToken:authentication.idToken
+                                         accessToken:authentication.accessToken];
+       
+        
+        
+        // ...
+    } else {
+        // ...
+    }
+}
+
+- (void)signIn:(GIDSignIn *)signIn
+didDisconnectWithUser:(GIDGoogleUser *)user
+     withError:(NSError *)error {
+    // Perform any operations when the user disconnects from app here.
+    // ...
+}
 
 /*
 #pragma mark - Navigation

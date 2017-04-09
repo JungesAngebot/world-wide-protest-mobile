@@ -1,5 +1,5 @@
 //
-//  CreateNewEventViewController.h
+//  TabbarController.h
 //  World Wide Protest
 //
 //  Created by Frederik Riedel on 09.04.17.
@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-@import WebKit;
 
-
-@interface CreateNewEventViewController : UIViewController
-
-@property(nonatomic,strong) WKWebView* webView;
+@interface TabbarController : UITabBarController
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *loginButton;
 
 @end
