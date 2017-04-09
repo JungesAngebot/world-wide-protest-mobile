@@ -1,4 +1,7 @@
 PODS:
+  - Firebase/Auth (3.14.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
   - Firebase/Core (3.14.0):
     - FirebaseAnalytics (= 3.7.0)
     - FirebaseCore (= 3.5.1)
@@ -12,6 +15,10 @@ PODS:
     - FirebaseCore (~> 3.5)
     - FirebaseInstanceID (~> 1.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
   - FirebaseCore (3.5.1):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
   - FirebaseDatabase (3.1.2):
@@ -22,14 +29,23 @@ PODS:
     - FirebaseInstanceID (~> 1.0)
     - GoogleToolboxForMac/Logger (~> 2.1)
     - Protobuf (~> 3.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
   - GoogleToolboxForMac/Defines (2.1.1)
   - GoogleToolboxForMac/Logger (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - GoogleToolboxForMac/NSData+zlib (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMSessionFetcher/Core (1.1.9)
   - Protobuf (3.2.0)
 
 DEPENDENCIES:
+  - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - Firebase/Messaging
@@ -37,13 +53,15 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Firebase: 85a581fb04e44f63ae9f4fbc8d6dabf4a4c18653
   FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
   FirebaseCore: 225d40532489835a034b8f4e2c9c87fbf4f615a2
   FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
   FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
   FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
   Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
 
-PODFILE CHECKSUM: 2ac5a0089f296138af47d14d4b171ff8ad7d5c23
+PODFILE CHECKSUM: 8b0b326d1803afb287c66703b8b25ac80195bd1b
 
 COCOAPODS: 1.2.0

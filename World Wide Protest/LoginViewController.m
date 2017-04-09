@@ -7,6 +7,9 @@
 //
 
 #import "LoginViewController.h"
+@import Firebase;
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+
 
 @interface LoginViewController ()
 
@@ -16,6 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+    loginButton.center = self.view.center;
+    [self.view addSubview:loginButton];
     // Do any additional setup after loading the view.
 }
 

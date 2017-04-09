@@ -20,6 +20,10 @@
 		8662B91D1E99B0780072A634 /* UIColor+ProtestColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8662B91C1E99B0780072A634 /* UIColor+ProtestColor.m */; };
 		8662B9201E99D1150072A634 /* CreateNewEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8662B91F1E99D1150072A634 /* CreateNewEventViewController.m */; };
 		8662B9231E99D1250072A634 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8662B9221E99D1250072A634 /* LoginViewController.m */; };
+		8662B9251E99D33B0072A634 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8662B9241E99D33B0072A634 /* Bolts.framework */; };
+		8662B9271E99D3470072A634 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8662B9261E99D3470072A634 /* FBSDKCoreKit.framework */; };
+		8662B9291E99D3520072A634 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8662B9281E99D3520072A634 /* FBSDKLoginKit.framework */; };
+		8662B92B1E99D35B0072A634 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8662B92A1E99D35B0072A634 /* FBSDKShareKit.framework */; };
 		868C7CC31E991D4600579ACE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868C7CC21E991D4600579ACE /* GoogleService-Info.plist */; };
 		868C7CC51E9942A900579ACE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868C7CC41E9942A900579ACE /* MapKit.framework */; };
 		AD2ADEB72B8368D68AEA40A9 /* libPods-World Wide ProtestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE7D7B33015F7AA5258C739 /* libPods-World Wide ProtestUITests.a */; };
@@ -77,6 +81,10 @@
 		8662B91F1E99D1150072A634 /* CreateNewEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewEventViewController.m; sourceTree = "<group>"; };
 		8662B9211E99D1250072A634 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		8662B9221E99D1250072A634 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8662B9241E99D33B0072A634 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Documents/FacebookSDKs-iOS/Bolts.framework"; sourceTree = "<group>"; };
+		8662B9261E99D3470072A634 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		8662B9281E99D3520072A634 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		8662B92A1E99D35B0072A634 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Documents/FacebookSDKs-iOS/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		868C7CC21E991D4600579ACE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		868C7CC41E9942A900579ACE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AF8A40FACA915B4D79BE9590 /* Pods-World Wide ProtestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Wide ProtestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Wide ProtestUITests/Pods-World Wide ProtestUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,8 +98,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8662B9271E99D3470072A634 /* FBSDKCoreKit.framework in Frameworks */,
+				8662B92B1E99D35B0072A634 /* FBSDKShareKit.framework in Frameworks */,
+				8662B9291E99D3520072A634 /* FBSDKLoginKit.framework in Frameworks */,
 				868C7CC51E9942A900579ACE /* MapKit.framework in Frameworks */,
 				C273DF7625B07175F890A629 /* libPods-World Wide Protest.a in Frameworks */,
+				8662B9251E99D33B0072A634 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +129,10 @@
 		637B97E7AE3C9BBFC3AB824F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8662B92A1E99D35B0072A634 /* FBSDKShareKit.framework */,
+				8662B9281E99D3520072A634 /* FBSDKLoginKit.framework */,
+				8662B9261E99D3470072A634 /* FBSDKCoreKit.framework */,
+				8662B9241E99D33B0072A634 /* Bolts.framework */,
 				868C7CC41E9942A900579ACE /* MapKit.framework */,
 				FF7AD92ADAD4912ACAEDD4DE /* libPods-World Wide Protest.a */,
 				82DAD239282137855BF2D1F6 /* libPods-World Wide ProtestTests.a */,
