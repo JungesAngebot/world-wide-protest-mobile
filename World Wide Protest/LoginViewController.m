@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 @import Firebase;
-#import <FBSDKLoginKit/FBSDKLoginKit.h>
+
 
 
 @interface LoginViewController ()
@@ -23,6 +23,7 @@
     
     FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
     loginButton.center = self.view.center;
+    loginButton.delegate = self;
     [self.view addSubview:loginButton];
     // Do any additional setup after loading the view.
 }
@@ -37,6 +38,32 @@
         
     }];
 }
+
+- (void)loginButton:(FBSDKLoginButton *)loginButton
+didCompleteWithResult:(FBSDKLoginManagerLoginResult *)result
+              error:(NSError *)error {
+    
+    if (error == nil) {
+        FIRAuthCredential *credential = [FIRFacebookAuthProvider credentialWithAccessToken:[FBSDKAccessToken currentAccessToken].tokenString];
+        
+        [[FIRAuth auth] signInWithCredential:credential
+                                  completion:^(FIRUser *user, NSError *error) {
+                                      // ...
+                                      if (error) {
+                                          NSLog(@"Facebook login error: %@",error.localizedDescription);
+                                          return;
+                                      }}];
+        
+        
+    } else {
+        NSLog(@"Facebook login error: %@",error.localizedDescription);
+    }
+}
+
+-(void)loginButtonDidLogOut:(FBSDKLoginButton *)loginButton {
+    
+}
+
 
 /*
 #pragma mark - Navigation
