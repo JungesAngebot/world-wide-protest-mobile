@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UIColor+ProtestColor.h"
 
 @import UserNotifications;
 
@@ -54,7 +55,31 @@
     
     [[UIApplication sharedApplication] registerForRemoteNotifications];
     
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor protestColor]];
+    [[UINavigationBar appearance] setTranslucent:NO];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
     
+    
+    
+    
+    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                       [UIColor blackColor], NSForegroundColorAttributeName,
+                                                       nil] forState:UIControlStateNormal];
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                       [UIColor whiteColor], NSForegroundColorAttributeName,
+                                                       nil] forState:UIControlStateSelected];
+    
+    
+    [[UITabBar appearance] setBarTintColor:[UIColor protestColor]];
+    [[UITabBar appearance] setBackgroundColor:[UIColor blackColor]];
+    
+    [[UITabBar appearance] setTranslucent:NO];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
     return YES;
 }

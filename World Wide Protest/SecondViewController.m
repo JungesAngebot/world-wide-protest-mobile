@@ -21,6 +21,12 @@
     
     [self reloadMapData];
     
+    self.mapView.showsUserLocation = YES;
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    
+    [self.locationManager requestWhenInUseAuthorization];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
