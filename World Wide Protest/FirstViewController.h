@@ -14,6 +14,7 @@
 @property(nonatomic,strong) WKWebView* webView;
 
 
+@property (strong, nonatomic) IBOutlet UIButton *backButton;
 
 
 @end
